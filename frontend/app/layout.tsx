@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export const metadata = {
   title: "CV-Agent",
-  description: "Analyse et génération intelligente de CV"
+  description: "Analyse et génération intelligente de CV",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
