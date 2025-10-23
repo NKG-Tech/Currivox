@@ -1,0 +1,26 @@
+# Secrets
+.env
+**/.env
+api/.env
+infra/.env
+infra/.env.api
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+api/.venv/
+
+# Node / Next.js
+**/node_modules/
+frontend/.next/
+.next/
+dist/
+build/
+out/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+-e ".env\napi/.env\nfrontend/.env\nnode_modules\n__pycache__\n*.pyc\n.next\n" 
