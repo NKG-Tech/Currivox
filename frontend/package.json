@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p 3000",
-    "lint": "next lint"
+    "lint": "next lint",
+    "vercel-build": "echo TAILWIND_DISABLE_LIGHTNINGCSS=$TAILWIND_DISABLE_LIGHTNINGCSS && next build"
   },
   "dependencies": {
     "next": "16.0.0",
