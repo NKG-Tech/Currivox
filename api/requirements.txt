@@ -5,3 +5,5 @@ prometheus-client
 httpx
 pydantic
 psycopg[binary]      # si tu te connectes à Postgres en prod
+pypdf>=4.0.0
+python-multipart>=0.0.9
